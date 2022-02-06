@@ -1,53 +1,82 @@
-h1 {
-  text-align: center;
-  color: black;
-}
-h2 {
-  color: FireBrick;
-}
-h3 {
-  color: FireBrick;
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-li {
-  display: inline;
-}
-a {
-  color: black;
-  text-decoration: none;
-}
-ul:hover {
-  background-color: blue;
-}
-table {
-  color: ;
+/* added */
+.nav ul {
+  list-style: none;
 }
 
-
-li {
+.nav li {
   float: left;
 }
 
-li a {
+.nav li a {
   display: block;
-  color: black;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-li a:hover {
-  background-color: #3366;
+.nav li a:hover {
+  background-color: #111;
+}
+
+.nav .active {
+  background-color: #4CAF50;
+}
+
+#n_title {
+  color: white;
+}
+
+input[type=text] {
+  float: left;
+  padding: 6px;
+  border: none;
+  marging-top: 10px;
+  marging-right: 20px;
+  font-size: 17px;
+}
+
+.nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+body {
+  background-color: white;
+}
+
+p {
+  background-color: null;
+}
+
+#first_title {
+  color: black;
+  text-align: center;
+}
+
+.sum {
+  text-align: left;
+}
+h1 {
+  text-align: center;
+  color: black;
 }
 body {
   background-image: url("https://d279m997dpfwgl.cloudfront.net/wp/2020/05/pencil-standardized-test.jpg");
   background-size: 100%;
 }
 ul {
-  list-style-type: circle;
-  text-indent: 10%;
+  background-color: white;
+}
+ {
+  background-color: white;
+}
