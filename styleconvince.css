@@ -1,6 +1,14 @@
 h1 {
   text-align: center;
   color: black;
+  font: ;
+}
+h2 {
+  color: FireBrick;
+}
+h3 {
+  color: FireBrick;
+  text-indent: 10%;
 }
 img {
   display: block;
