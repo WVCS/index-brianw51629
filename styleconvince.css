@@ -5,11 +5,9 @@ h1 {
 }
 h2 {
   color: FireBrick;
+    text-align: center;
 }
-h3 {
-  color: FireBrick;
-  text-indent: 10%;
-}
+
 img {
   display: block;
   margin-left: auto;
@@ -27,11 +25,6 @@ ul:hover {
 }
 table {
   color: ;
-}
-h2 {
-  color: ;
-  text-align: center;
-  font-size: 100%;
 }
 .bballgif {
   width: 100%;
