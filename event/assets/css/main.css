@@ -2022,3 +2022,12 @@ input, select, textarea {
 			}
 
 	}
+
+logo. {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 10px;
+}
+
+
