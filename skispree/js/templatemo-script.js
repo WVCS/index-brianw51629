@@ -143,7 +143,39 @@ $(document).ready(function () {
             currentNumberPages = page;
         }();
         
+        // create page number navigation
+        var CreatePagers = function() {
 
+            var $isotopePager = ( $('.'+pagerClass).length == 0 ) ? $('<div class="'+pagerClass+' tm-paging"></div>') : $('.'+pagerClass);
+
+            $isotopePager.html('');
+            if(currentNumberPages > 1){
+                for( var i = 0; i < currentNumberPages; i++ ) {
+                    var $pager = '';
+
+                    if(currentPage == i+1) {
+                        $pager = $('<a href="javascript:void(0);" class="pager active tm-paging-link" '+pageAttribute+'="'+(i+1)+'"></a>');
+                    } else {
+                        $pager = $('<a href="javascript:void(0);" class="pager tm-paging-link" '+pageAttribute+'="'+(i+1)+'"></a>');
+                    }
+
+                    $pager.html(i+1);
+
+                    $pager.click(function(){
+                        $('.tm-paging-link').removeClass('active');
+                        $(this).addClass('active');
+                        var page = $(this).eq(0).attr(pageAttribute);
+                        goToPage(page);
+                    });
+                    $pager.appendTo($isotopePager);
+                }
+            }
+            $container.after($isotopePager);
+        }();
+    }
+
+    setPagination();
+    goToPage(1);
 
     //event handlers
     $('.tm-gallery-link').click(function(e) {        
