@@ -1371,9 +1371,9 @@ blockquote {
     height: auto;
   }
 .centerlogo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   width: 50%;
+  border: 3px solid green;	
+ 
 	}
 }
