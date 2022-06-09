@@ -113,7 +113,24 @@ button{
     border-radius: 50px;
     text-align: center;
 }
-
+.sendbutton{
+    
+    width: 200px;
+    height: 50px;
+    
+    border: 2px solid linear-gradient(to right, #04642c 1%,#83c783 17%,#52b152 33%,#008a00 67%,#005700 83%,#002400 100%); 
+    
+    
+    border-collapse: collapse;
+    
+    
+    background: -webkit-linear-gradient(left, #002400 0%,#8cc43c 17%,#8cc43c 33%,#8cc43c 69%,#8cc43c 84%,#002400 100%); 
+    
+    box-shadow: 1px 2px 0px -1px rgba(12,41,5,1);
+    
+    border-radius: 50px;
+    text-align: center;
+}
 button>p{
     
     color: white;
